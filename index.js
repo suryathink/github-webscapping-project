@@ -3,7 +3,7 @@ const request = require("request");
 const cheerio = require("cheerio");
 const getReposPageHtml = require("./reposPage");
 const getIssuesPageHtml = require("./getIssues");
-// Read Readme first
+// Read notes.txt first
 request(url, cb);
 
 function cb(err, response, html) {
